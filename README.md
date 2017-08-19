@@ -1,15 +1,15 @@
-# codelab_TF_without_phd
+# Tensorflow and Deep Learning - without a PhD
 
-![Image](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/img/93d5f08a4f82d4c.png)
+This repository contains my solutions for the elementary course on codelab "[Tensorflow and deep learning - without a PhD](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist)" by Martin Görner(Google) for getting started with Tensorflow and Deep Learning concepts.
 
-This is support code for the codelab "[Tensorflow and deep learning - without a PhD](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist)"
+The course has two main tasks:
+1. Implementing a CNN for MNIST digit classification
+2. Implementing a RNN/LSTM for generating text
 
-The presentation explaining the underlying concepts is [here](https://goo.gl/pHeXe7) and you will find codelab instructions to follow on its last slide. Do not forget to open the speaker notes in the presentation, a lot of the explanations are there.
+## Results:
 
-The lab takes 2.5 hours and takes you through the design and optimisation of a neural network for recognising handwritten digits, from the simplest possible solution all the way to a recognition accuracy above 99%. It covers dense and convolutional networks, as well as techniques such as learning rate decay and dropout.
+Training a CNN on MNIST dataset:
+**Accuracy achieved - 99.1 %**
 
-Installation instructions [here](INSTALL.txt). The short version is: install Python3, then pip3 install tensorflow and matplotlib.   
-
----
-
-*Disclaimer: This is not an official Google product but sample code provided for an educational purpose*
+Tensorboard visualisation of network training:
+![Image](https://github.com/darshanbagul/codelab_TF_without_phd/blob/master/mnist.png)
